@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: linear-gradient(to right,	#008B8B,#AFEEEE);
+}
+.keys{
+    /* margin-left: 60px; */
+    margin-top: 250px;
+ text-align: center; 
+}
+.key{
+    border: 1px solid white;
+    width: 100px;
+    height: 90px;
+    display: inline-block;
+    margin-left: 20px;
+    padding:15px;
+    line-height: 30px;
+    transition: all 0.07s;
+
+  
+}
+.key kbd{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+}
+.key span{
+    display: block;
+    font-size: 1rem;
+    color: white;
+}
+
+.playing{
+    transform: scale(1.1);
+    box-shadow:0 0 10px white;
+    border-color:#008B8B;
+
+}
